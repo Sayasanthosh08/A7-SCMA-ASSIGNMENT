@@ -1,6 +1,7 @@
 pip install yfinance
-import streamlit as st
+
 import yfinance as yf
+import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 from statsmodels.tsa.seasonal import seasonal_decompose
